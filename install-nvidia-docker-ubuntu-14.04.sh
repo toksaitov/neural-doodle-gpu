@@ -12,8 +12,8 @@ usermod --append --groups="docker" "$SUDO_USER"
 
 # Install an NVIDIA Docker wrapper
 
-NVIDIA_DOCKER="nvidia-docker_1.0.0.beta.2-1_amd64.deb"
-NVIDIA_DOCKER_URL="https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.0-beta.2"
+NVIDIA_DOCKER="nvidia-docker_1.0.0.rc-1_amd64.deb"
+NVIDIA_DOCKER_URL="https://github.com/NVIDIA/nvidia-docker/releases/download/v1.0.0-rc"
 
 wget --directory-prefix="/tmp/" --continue "$NVIDIA_DOCKER_URL/$NVIDIA_DOCKER"
 dpkg --install "/tmp/$NVIDIA_DOCKER"
