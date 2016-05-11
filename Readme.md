@@ -67,7 +67,6 @@ To start with an interactive shell inside the container
 
 ## Credits
 
-Neural-Doodle is developed by [Alex J. Champandard](https://github.com/alexjc).
+*Neural Doodle* is developed by [Alex J. Champandard](https://github.com/alexjc).
 
-The Docker image was created by [Dmitrii
-Toksaitov](https://github.com/toksaitov).
+The Docker image was created by [Dmitrii Toksaitov](https://github.com/toksaitov).
